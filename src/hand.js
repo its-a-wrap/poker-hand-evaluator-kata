@@ -6,7 +6,7 @@ export class Hand {
     this.cards = cardStringArray.map((cardAsString) => new Card(cardAsString));
 
     this.handRankingString = '';
-    this.valuesArray = this.cards.map((card) => card.getValue());
+    this.valuesArray = this.cards.map((card) => card.getValue()).sort((a, b) => a - b);
     this.suitsArray = this.cards.map((card) => card.getSuit()).sort();
 
     this.RANK_TO_VALUE = {
