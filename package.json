@@ -1,7 +1,7 @@
 {
-  "name": "kata-starter",
+  "name": "poker-hand-evaluator-kata",
   "version": "1.0.0",
-  "description": "Base project for coding katas",
+  "description": "Project to compare two poker hands provided",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/its-a-wrap/node-kata-starter.git"
+    "url": "git+https://github.com/its-a-wrap/poker-hand-evaluator-kata.git"
   },
   "author": "Patrick Tweed",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/its-a-wrap/node-kata-starter/issues"
+    "url": "https://github.com/its-a-wrap/poker-hand-evaluator-kata/issues"
   },
-  "homepage": "https://github.com/its-a-wrap/node-kata-starter#readme",
+  "homepage": "https://github.com/its-a-wrap/poker-hand-evaluator-kata#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^7.2.0",
